@@ -1,15 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+#experiment-area {
+    background-color: white;
     padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
 }
 
-h1 {
-    color: #333;
+#controls {
+    margin: 10px;
 }
 
-p {
-    font-size: 18px;
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
 }
