@@ -7,8 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Virtual Chemistry Lab</h1>
-    <p>Experiment with different chemicals and reactions.</p>
+    <header>
+        <h1>Virtual Chemistry Lab</h1>
+    </header>
+
+    <main>
+        <section id="experiment-area">
+            <h2>Experiment Name</h2>
+            <canvas id="simulationCanvas"></canvas> <!-- For interactive visuals -->
+        </section>
+
+        <section id="controls">
+            <h3>Controls</h3>
+            <button onclick="startExperiment()">Start</button>
+            <button onclick="resetExperiment()">Reset</button>
+        </section>
+
+        <section id="instructions">
+            <h3>Instructions</h3>
+            <p>Follow the steps to perform the experiment.</p>
+        </section>
+
+        <section id="results">
+            <h3>Results</h3>
+            <p id="output">Results will be displayed here.</p>
+        </section>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
