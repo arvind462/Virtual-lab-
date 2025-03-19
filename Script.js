@@ -1,3 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-    alert("Welcome to the Virtual Chemistry Lab!");
-});
+function startExperiment() {
+    document.getElementById("output").innerText = "Experiment started!";
+}
+
+function resetExperiment() {
+    document.getElementById("output").innerText = "Experiment reset.";
+}
